@@ -995,7 +995,8 @@ typedef	Elf64_Word	Elf64_Capchain;
 #define	NT_SECFLAGS	24	/* process security-flags */
 #define	NT_LWPNAME	25	/* prlwpname_t */
 #define	NT_UPANIC	26	/* prupanic_t */
-#define	NT_NUM		26
+#define	NT_XXXFDINFO	27	/* XXX new fd info with misc 		*/
+#define	NT_NUM		27
 
 
 #ifdef _KERNEL

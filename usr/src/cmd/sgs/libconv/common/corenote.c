@@ -60,9 +60,10 @@ conv_cnote_type(Word type, Conv_fmt_flags_t fmt_flags,
 		MSG_NT_PRPRIVINFO,	MSG_NT_CONTENT,
 		MSG_NT_ZONENAME,	MSG_NT_FDINFO,
 		MSG_NT_SPYMASTER,	MSG_NT_SECFLAGS,
-		MSG_NT_LWPNAME,		MSG_NT_UPANIC
+		MSG_NT_LWPNAME,		MSG_NT_UPANIC,
+		MSG_NT_XXXFDINFO
 	};
-#if NT_NUM != NT_UPANIC
+#if NT_NUM != NT_XXXFDINFO
 #error "NT_NUM has grown. Update core note types[]"
 #endif
 	static const conv_ds_msg_t ds_types = {

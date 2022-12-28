@@ -474,6 +474,7 @@
 @ MSG_CNOTE_DESC_PRSECFLAGS_T		"desc: (prsecflags_t)"
 @ MSG_CNOTE_DESC_PRLWPNAME_T		"desc: (prlwpname_t)"
 @ MSG_CNOTE_DESC_PRUPANIC_T		"desc: (prupanic_t)"
+@ MSG_CNOTE_DESC_XXXPRFDINFO_T		"desc: (prfdinfo_t)"
 
 @ MSG_CNOTE_FMT_LINE		"%*s%-*s%s"
 @ MSG_CNOTE_FMT_LINE_2UP	"%*s%-*s%-*s%-*s%s"

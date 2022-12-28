@@ -2022,6 +2022,14 @@ corenote(Half mach, int do_swap, Word type,
 		state.ns_vcol = 23;
 		dump_upanic(&state, MSG_ORIG(MSG_CNOTE_DESC_PRUPANIC_T));
 		return (CORENOTE_R_OK);
+
+	// XXX MIKE -- Update the fields below
+	case NT_XXXFDINFO:
+		state.ns_vcol = 22;
+		state.ns_t2col = 41;
+		state.ns_v2col = 54;
+		dump_prfdinfo(&state, MSG_ORIG(MSG_CNOTE_DESC_XXXPRFDINFO_T));
+		return (CORENOTE_R_OK);
 	}
 
 	return (CORENOTE_R_BADTYPE);
